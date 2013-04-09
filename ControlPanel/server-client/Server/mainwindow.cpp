@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     udpSocket = new QUdpSocket(this);
-    udpSocket->bind(QHostAddress::LocalHost, 7755);
+    udpSocket->bind(QHostAddress::Any, 7755);
     connect(ui->pushButton, SIGNAL(pressed()), this, SLOT(send()));
     qDebug("Created");
 }
