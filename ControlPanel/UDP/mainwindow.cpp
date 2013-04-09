@@ -3,13 +3,12 @@
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow),
-    port(4444)
+    ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    socket = new QUdpSocket(this);
-    socket->bind(QHostAddress::Any, port);
-    connect(socket, SIGNAL(readyRead()), this, SLOT(read()));
+    udpSocket = new QUdpSocket(this);
+    udpSocket->bind(QHostAddress::LocalHost, 4444);
+    connect(udpSocket, SIGNAL(readyRead()), this, SLOT(read()));
     qDebug("Created");
 }
 
@@ -21,6 +20,17 @@ MainWindow::~MainWindow()
 void MainWindow::read()
 {
     qDebug("Start reading");
+//    while (udpSocket->hasPendingDatagrams()) {
+//        QByteArray datagram;
+//        datagram.resize(udpSocket->pendingDatagramSize());
+//        QHostAddress sender;
+//        quint16 senderPort;
+
+//        udpSocket->readDatagram(datagram.data(), datagram.size(),
+//                                &sender, &senderPort);
+
+//        processTheDatagram(datagram);
+//    }
 //    QByteArray datagram;
 //    datagram.resize(socket->pendingDatagramSize());
 //    QHostAddress *address = new QHostAddress();
@@ -42,12 +52,6 @@ void MainWindow::read()
 
 //    qDebug("num = %d", number);
 }
-
-
-
-
-
-
 
 
 

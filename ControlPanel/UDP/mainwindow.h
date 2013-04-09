@@ -19,8 +19,7 @@ public slots:
     void read();
 private:
     Ui::MainWindow *ui;
-    QUdpSocket *socket;
-    qint16 port;
+    QUdpSocket *udpSocket;
 };
 
 #endif // MAINWINDOW_H
