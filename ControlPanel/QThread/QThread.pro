@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-TARGET = QThread
+TARGET = QThread1
 TEMPLATE = app
 
 

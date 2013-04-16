@@ -16,7 +16,6 @@ void MyThread::run()
     QTimer timer;
     connect(&timer, SIGNAL(timeout()), SLOT(slotNextValue()));
     timer.start(1000);
-
     exec();
 }
 

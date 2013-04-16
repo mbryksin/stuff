@@ -1,8 +1,7 @@
 #ifndef MYTHREAD_H
 #define MYTHREAD_H
 
-#include <QThread>
-#include <QObject>
+#include <QtCore/QThread>
 
 class MyThread : public QThread
 {
