@@ -53,7 +53,7 @@ MainWindow::MainWindow(QWidget *parent) :
   ui->setupUi(this);
   setGeometry(400, 250, 542, 390);
   
-  setupDemo(2);
+  setupDemo(10);
   //setupPlayground(ui->customPlot);
   // 0:  setupQuadraticDemo(ui->customPlot);
   // 1:  setupSimpleDemo(ui->customPlot);
