@@ -1,0 +1,15 @@
+using System;
+public class Test
+{
+        public static Main() : void
+        {
+            def i = int.Parse(Console.ReadLine());
+            def factorial(n, acc) : int {
+                | (0, _) => acc
+                | (1, _) => acc
+                | _ => factorial(n - 1, n * acc)
+            }
+            def partedFactorial = factorial(i, 1);
+            Console.WriteLine(partedFactorial);
+        }
+}
