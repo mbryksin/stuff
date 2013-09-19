@@ -1,0 +1,6 @@
+#!/usr/bin/python
+# My first program on Python!
+# ещгср
+# chmod +x <filename>
+# ./<filename>
+print "Hello World!!!"
