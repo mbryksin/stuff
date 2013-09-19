@@ -1,0 +1,11 @@
+int main()
+{
+    /*testing
+    tes//ting
+    testing*/
+    printf("bla-bla//bla");
+    //testing is end;
+    //testing
+    //;
+    /*printf("bl*a-bla//bla");*/
+}
