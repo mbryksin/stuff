@@ -1,7 +1,7 @@
 #include "widget.h"
 #include <QDebug>
 
-QString const& ip = "192.168.0.125";
+QString const& ip = "192.168.0.107";
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -31,6 +31,6 @@ void Widget::sendFactor()
     QByteArray datagram;
     QDataStream out(&datagram, QIODevice::WriteOnly);
     out.setVersion(QDataStream::Qt_4_2);
-    out << lineEdit.text().toLatin1().data();
+    out << lineEdit.text();
     infoSocket.write(datagram);
 }
