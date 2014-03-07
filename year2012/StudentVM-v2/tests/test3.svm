@@ -1,0 +1,10 @@
+while:
+    ldc 10
+    ldc 5
+    add
+jump1:
+    jmp jump
+    ldc 15
+    sub
+jump:
+    hlt; 'answer 15'

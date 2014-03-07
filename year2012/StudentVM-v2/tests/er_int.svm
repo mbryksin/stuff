@@ -1,0 +1,4 @@
+    ldc 1
+    ldc 2
+    add
+    hlt

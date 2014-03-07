@@ -1,0 +1,10 @@
+    ldc 16
+    ldc 2
+    mod
+    br label
+    ldc 0
+    jmp exit
+label:
+    ldc 1
+exit:
+    hlt; 'answer 0'

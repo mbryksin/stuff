@@ -1,0 +1,16 @@
+    ldc 0
+    st 0
+    ldc 1
+    st 1
+    ldc 2
+    st 2
+    ldc 3
+    st 3
+    ldc 100
+    st 100
+    ld 0
+    ld 1
+    ld 2
+    ld 3
+    ld 100
+    hlt; 'answer 100'

@@ -1,0 +1,14 @@
+    ldc 0
+    st :
+    st ;
+    ldc 1
+    ;asd
+    ldc blf
+    :asd
+
+    ddc 123
+    add
+    jmp _kl
+    sub
+    sub
+lase;

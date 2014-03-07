@@ -1,0 +1,6 @@
+    ldc 5
+    st 0
+    ld 0
+    ld 0
+    add
+    hlt; 'answer 10'

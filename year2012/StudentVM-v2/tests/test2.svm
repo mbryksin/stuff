@@ -1,0 +1,13 @@
+label1:
+    ldc 92
+    ldc 1
+    sub
+label3:
+    st 162
+    ld 162
+    ldc 1
+label2:
+    add
+    jmp label1
+    br label2; comment 'Она должна зацикливаться'
+    hlt

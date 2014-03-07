@@ -1,0 +1,11 @@
+while:
+    ldc 10
+    ldc 5
+    add
+jump1:
+    jmp label1
+    ldc 15
+    sub
+jump:
+label1:
+    hlt

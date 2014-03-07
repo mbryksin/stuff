@@ -1,0 +1,38 @@
+    LDC 2000000
+    st 0
+    ldc 1
+    ldc 1
+    st 1
+    st 2
+    ldc 0
+    st 3
+whiLe:
+    ld 1
+    ld 2
+    add
+    ldc 2
+    mod
+    br nextfib
+    ld 1
+    ld 2
+    ld 3
+    add
+    add
+    st 3
+nextFib:
+    ld 1
+    ld 2
+    add
+    ld 2
+    st 1
+    st 2
+    ld 2
+    ld 0
+    cmp
+    ldc -1
+    cmp
+    br end
+    jmp while
+end:
+    ld 3
+    hlt

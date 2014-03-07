@@ -1,0 +1,8 @@
+    ldc 0
+    st 0
+    ldc 1
+    st 1
+    ldc 2
+    st 2
+    ld 3
+    hlt

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SnakeGame", "SnakeGame\SnakeGame.fsproj", "{CA34599F-51BD-446E-8FB0-9F879A9F4BF4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SnakeObj", "SnakeObj\SnakeObj.fsproj", "{AF995B8D-5C35-42A9-B407-A6178A202E8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA34599F-51BD-446E-8FB0-9F879A9F4BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA34599F-51BD-446E-8FB0-9F879A9F4BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA34599F-51BD-446E-8FB0-9F879A9F4BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA34599F-51BD-446E-8FB0-9F879A9F4BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF995B8D-5C35-42A9-B407-A6178A202E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF995B8D-5C35-42A9-B407-A6178A202E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF995B8D-5C35-42A9-B407-A6178A202E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF995B8D-5C35-42A9-B407-A6178A202E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
