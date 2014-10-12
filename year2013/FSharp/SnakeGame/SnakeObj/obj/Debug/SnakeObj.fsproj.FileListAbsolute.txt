@@ -1,0 +1,7 @@
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\bin\Debug\SnakeObj.XML
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\bin\Debug\SnakeObj.dll
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\bin\Debug\SnakeObj.pdb
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\bin\Debug\FSharp.Core.dll
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\bin\Debug\FSharp.Core.xml
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\obj\Debug\SnakeObj.dll
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeObj\obj\Debug\SnakeObj.pdb

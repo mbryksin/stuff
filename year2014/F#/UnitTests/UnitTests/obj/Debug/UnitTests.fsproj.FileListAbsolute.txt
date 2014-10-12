@@ -1,0 +1,14 @@
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\UnitTests.exe.config
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\UnitTests.XML
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\UnitTests.exe
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\UnitTests.pdb
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\FsCheck.dll
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\FSharp.Core.dll
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\FsUnit.NUnit.dll
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\nunit.framework.dll
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\FsCheck.xml
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\FSharp.Core.xml
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\bin\Debug\nunit.framework.xml
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\obj\Debug\UnitTests.fsproj.UnitTests.exe.config
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\obj\Debug\UnitTests.exe
+C:\git\stuff\year2014\F#\UnitTests\UnitTests\obj\Debug\UnitTests.pdb

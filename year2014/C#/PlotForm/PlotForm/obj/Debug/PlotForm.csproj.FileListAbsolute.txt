@@ -1,0 +1,9 @@
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\bin\Debug\PlotForm.exe.config
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\bin\Debug\PlotForm.exe
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\bin\Debug\PlotForm.pdb
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.csprojResolveAssemblyReference.cache
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.Form1.resources
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.Properties.Resources.resources
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.csproj.GenerateResource.Cache
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.exe
+C:\git\stuff\year2014\C#\PlotForm\PlotForm\obj\Debug\PlotForm.pdb

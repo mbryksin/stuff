@@ -1,0 +1,4 @@
+﻿S -> NonTerm1 NonTerm2 1
+NonTerm1 -> a
+NonTerm1 -> 
+NonTerm2 -> b

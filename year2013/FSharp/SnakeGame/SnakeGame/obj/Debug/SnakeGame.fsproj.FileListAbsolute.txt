@@ -1,0 +1,12 @@
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeGame.exe.config
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeGame.XML
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeGame.exe
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeGame.pdb
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\FSharp.Core.dll
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeObj.dll
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeObj.pdb
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\SnakeObj.xml
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\bin\Debug\FSharp.Core.xml
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\obj\Debug\SnakeGame.fsprojResolveAssemblyReference.cache
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\obj\Debug\SnakeGame.exe
+C:\git\stuff\year2013\FSharp\SnakeGame\SnakeGame\obj\Debug\SnakeGame.pdb
