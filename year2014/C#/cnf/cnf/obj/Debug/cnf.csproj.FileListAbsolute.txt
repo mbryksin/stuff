@@ -1,6 +1,0 @@
-C:\git\stuff\year2014\C#\cnf\cnf\bin\Debug\cnf.exe.config
-C:\git\stuff\year2014\C#\cnf\cnf\bin\Debug\cnf.exe
-C:\git\stuff\year2014\C#\cnf\cnf\bin\Debug\cnf.pdb
-C:\git\stuff\year2014\C#\cnf\cnf\obj\Debug\cnf.csprojResolveAssemblyReference.cache
-C:\git\stuff\year2014\C#\cnf\cnf\obj\Debug\cnf.exe
-C:\git\stuff\year2014\C#\cnf\cnf\obj\Debug\cnf.pdb
