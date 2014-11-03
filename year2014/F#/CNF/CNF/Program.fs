@@ -101,8 +101,7 @@ type private Grammar(start: Character, productions: Production list) =
             newRight [tail] []
 
         let deleteProduction productions (var:Character) =
-            let newName = var.Value + "#" + Convert.ToString( (new System.Random()).Next(1, 1000) )
-            let var' = new Character(newName)
+            let var' = new Character(var.Value + "#" + Convert.ToString( (new System.Random()).Next(1, 1000) ))
             
             let deleteVariable var var' (p:Production) =
                 match p.Left = var with
