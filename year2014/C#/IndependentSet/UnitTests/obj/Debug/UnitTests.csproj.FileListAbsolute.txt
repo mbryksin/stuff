@@ -1,0 +1,17 @@
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\UnitTests.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\UnitTests.pdb
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\IndependentSet.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\nunit.framework.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Data.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Graphviz.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Serialization.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\IndependentSet.pdb
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\nunit.framework.xml
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.xml
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Data.xml
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Graphviz.xml
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\bin\Debug\QuickGraph.Serialization.xml
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\obj\Debug\UnitTests.dll
+C:\git\stuff\year2014\C#\IndependentSet\UnitTests\obj\Debug\UnitTests.pdb
