@@ -1,0 +1,8 @@
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\LL1.exe.config
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\LL1.XML
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\LL1.exe
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\LL1.pdb
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\FSharp.Core.dll
+C:\git\stuff\year2014\F#\LL1\LL1\bin\Debug\FSharp.Core.xml
+C:\git\stuff\year2014\F#\LL1\LL1\obj\Debug\LL1.exe
+C:\git\stuff\year2014\F#\LL1\LL1\obj\Debug\LL1.pdb
