@@ -21,3 +21,11 @@ C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\FsUnit.NUnit.dll
 C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\nunit.framework.dll
 C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\nunit.framework.xml
 C:\git\stuff\year2014\F#\Graphs\Tests\obj\Debug\Tests.fsproj.Tests.exe.config
+C:\git\stuff\year2014\F#\Graphs\Tests\obj\Debug\Tests.fsprojResolveAssemblyReference.cache
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Antlr3.Runtime.dll
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.dll
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.WPF.dll
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.pdb
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.xml
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.WPF.pdb
+C:\git\stuff\year2014\F#\Graphs\Tests\bin\Debug\Graphviz4Net.WPF.xml
