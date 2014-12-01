@@ -91,16 +91,13 @@ type Algorithm private () =
                let s2 = Seq.last take2
                let s3 = Seq.last pair_sorted
                
-               let n1 = Algorithm.neighbors(fst s1,graph)
-               let g1 = Algorithm.cleanGraph(graph,[fst s1],[n1])
-
-
                if (snd s1) = 0
                     then
                         let g3 = Algorithm.cleanGraph(graph, [fst s1], [])
                         Algorithm.ms1(g3, Seq.filter ((<>)(fst s1)) vertexset) |> Seq.append [(fst s1)]
-
                     else
+                        let n1 = Algorithm.neighbors(fst s1,graph)
+                        let g1 = Algorithm.cleanGraph(graph,[fst s1],[n1])
                         if graph.ContainsEdge(fst s1,fst s2) && graph.ContainsEdge(fst s2,fst s3) && graph.ContainsEdge(fst s1,fst s3)
                             then Seq.empty
                             else
@@ -131,18 +128,17 @@ type Algorithm private () =
                                                                                             | None ->   let res3 = vertexN(fst s1,fst s3)
                                                                                                         match res3 with
                                                                                                         | Some x3 -> returnIS(x3, vertexset)
-                                                                                                        | None ->   if graph.AdjacentDegree(fst s1) = 1
+                                                                                                        | None ->    if (snd s1) = 1
                                                                                                                         then 
-                                                                                                                            Algorithm.ms1(g1,Seq.filter ((<>)(fst s1)) vertexset) |> Seq.append [(fst s1)]
+                                                                                                                            Algorithm.ms1(g1, Seq.filter ((<>)(fst s1)) vertexset) |> Seq.append [(fst s1)]
                                                                                                                         else
                                                                                                                             let max1 = Algorithm.ms1(g1,Seq.filter ((<>)(fst s1)) vertexset) |> Seq.append [(fst s1)]
 
                                                                                                                             let ns_3 = Algorithm.neighbors(fst s3,graph)
                                                                                                                             let ns_2 = Algorithm.neighbors(fst s2,graph)
-                                                                                                                            let ns_1 = Algorithm.neighbors(fst s1,graph)
-                                                                                                                            let gr1 = Algorithm.cleanGraph(graph, [fst s1;fst s2;fst s3], [ns_1;ns_2;ns_3])
+                                                                                                                            let gr1 = Algorithm.cleanGraph(graph, [fst s1;fst s2;fst s3], [ns_2;ns_3])
                                                                                                                             
-                                                                                                                            let max2 = Algorithm.ms1(gr1, ns_1)
+                                                                                                                            let max2 = Algorithm.ms2(gr1, n1)
                                                                                                                             if (Seq.length max1) + 1 > (Seq.length max2) + 2
                                                                                                                                 then max1 |> Seq.append [(fst s1)]
                                                                                                                                 else max2 |> Seq.append [(fst s2);(fst s3)]
@@ -177,14 +173,11 @@ type Algorithm private () =
                  let neighborsS1 = Algorithm.neighbors(fst s1,graph)
                  let neighborsS2 = Algorithm.neighbors(fst s2,graph)
 
-                 let Ns1_Ns2 = Seq.fold (fun acc v -> if Seq.exists ((=)v) neighborsS1 then true else acc ) false neighborsS1
-
                  let g1 = Algorithm.cleanGraph(graph,[fst s1],[neighborsS1])
                  let g2 = Algorithm.cleanGraph(graph,[fst s2],[neighborsS2])
-                 let g3 = Algorithm.cleanGraph(graph,[fst s1;fst s2],[neighborsS1;neighborsS2])
                  
                  if graph.ContainsEdge(fst s1,fst s2)
-                    then if (snd s1) < 3
+                    then if (snd s1) <= 3
                             then Algorithm.ms(graph)
                             else 
                                 let max1 = Algorithm.ms(g1)
@@ -192,8 +185,11 @@ type Algorithm private () =
                                 if (Seq.length max1) > (Seq.length max2)
                                     then max1 |> Seq.append [(fst s1)]
                                     else max2 |> Seq.append [(fst s2)]
-                    else if Ns1_Ns2
-                            then Algorithm.ms1(g3, vertexset)
+                    else let Ns1_Ns2 = Seq.fold (fun acc v -> if Seq.exists ((=)v) neighborsS1 then (Seq.append [v] acc) else acc ) Seq.empty neighborsS2 
+                         if (Seq.length Ns1_Ns2) <> 0
+                            then 
+                                 let g3 = Algorithm.cleanGraph(graph,[],[Ns1_Ns2])
+                                 Algorithm.ms1(g3, vertexset)
                             else
                                 if snd(s2) = 2
                                     then
@@ -209,7 +205,9 @@ type Algorithm private () =
                                                 let more = Seq.fold (fun acc x -> (Seq.exists ((=)x) N_EF) && acc) true neighborsS2
 
                                                 if ((Seq.length N_EF) > (Seq.length neighborsS2)) && more
-                                                    then Algorithm.ms(g3) |> Seq.append [E;F;(fst s2)]
+                                                    then 
+                                                         let g3 = Algorithm.cleanGraph(graph,[fst s1; fst s2],[neighborsS1;neighborsS2])
+                                                         Algorithm.ms(g3) |> Seq.append [E;F;(fst s2)]
                                                     else
                                                         let nm_2 = Algorithm.neighbors((fst s2),graph)
                                                         let g4 = Algorithm.cleanGraph(graph,[fst s2;E;F],[ns_E;ns_F;nm_2])

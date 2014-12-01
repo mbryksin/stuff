@@ -33,6 +33,14 @@ type TestClass() =
         Seq.length result = num 
 
     [<Test>] member test.
+     ``Баг 1`` ()=
+        TestClass.testRobson(@"../../dot-tests/bag-1.dot", 10) |> should be True
+
+    [<Test>] member test.
+     ``Баг 2`` ()=
+        TestClass.testRobson(@"../../dot-tests/bag-2.dot", 13) |> should be True
+
+    [<Test>] member test.
      ``2 вершины 1 ребро из файла`` ()=
         TestClass.testRobson(@"../../dot-tests/test-1.dot", 1) |> should be True
     
