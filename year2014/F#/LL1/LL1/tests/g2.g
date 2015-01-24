@@ -1,6 +1,8 @@
 Session -> Facts Question
 Session -> ( Session ) Session
-Facts -> Fact Facts 
 Facts -> 
-Fact -> ! STRING 
-Question -> ? STRING
+Facts -> Fact Facts 
+Fact -> ! String 
+Question -> ? String
+
+String -> a
